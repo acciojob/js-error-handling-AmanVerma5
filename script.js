@@ -29,6 +29,6 @@ function evalString(expression){
 	    }
 		 return "Expression is valid and can be evaluated.";
 	}catch(error){
-		console.error(`${error.name}: ${erroe.message}`);
+		console.error(`${error.name}: ${error.message}`);
 	}
 }
